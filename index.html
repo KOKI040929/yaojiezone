@@ -3,12 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>瑶姐昭君王的地盘</title>
+  <title>瑶姐昭君王</title>
 
   <style>
-    body {
+    html, body {
       margin: 0;
-      height: 100vh;
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      min-height: 100vh;
       color: white;
       font-family: "Microsoft YaHei", Arial, sans-serif;
       display: flex;
@@ -16,10 +21,9 @@
       align-items: center;
       text-align: center;
 
-      background-image: linear-gradient(
-        rgba(0, 0, 0, 0.45),
-        rgba(0, 0, 0, 0.45)
-      ), url("bg.jpg");
+      background:
+        linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+        url("./bg.jpg");
 
       background-size: cover;
       background-position: center;
@@ -27,20 +31,20 @@
     }
 
     .box {
-      padding: 40px 60px;
-      background: rgba(0, 0, 0, 0.35);
-      border-radius: 20px;
-      backdrop-filter: blur(4px);
+      padding: 45px 65px;
+      background: rgba(0, 0, 0, 0.45);
+      border-radius: 18px;
+      backdrop-filter: blur(5px);
     }
 
     h1 {
-      font-size: 48px;
-      margin-bottom: 20px;
-      text-shadow: 0 0 15px #7dd3fc;
+      font-size: 46px;
+      margin-bottom: 18px;
+      text-shadow: 0 0 18px #7dd3fc;
     }
 
     p {
-      font-size: 24px;
+      font-size: 23px;
       color: #e0f2fe;
     }
   </style>
@@ -48,7 +52,7 @@
 
 <body>
   <div class="box">
-    <h1>欢迎来到瑶姐昭君王的地盘</h1>
+    <h1>瑶姐昭君王</h1>
     <p>因为我很懒，所以就这样。</p>
   </div>
 </body>
